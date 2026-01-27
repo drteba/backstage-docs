@@ -1,0 +1,6 @@
+site_name: arqsalut-docs
+site_description: Documents transversals de l'oficina d'Arquitectura del CatSalut
+plugins:
+  - techdocs-core
+nav:
+  - Getting Started: index.md

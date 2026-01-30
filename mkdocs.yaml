@@ -6,6 +6,12 @@ plugins:
   - mermaid2
 markdown_extensions:
   - pymdownx.superfences
+  pymdownx.extra:
+    pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Getting Started: index.md
   - Mermaid sample: sample-mermaid.md

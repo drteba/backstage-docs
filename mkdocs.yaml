@@ -1,7 +1,11 @@
-site_name: arqsalut-docs
+site_name: Documentació tècnica CatSalut
 site_description: Documents transversals de l'oficina d'Arquitectura del CatSalut
 markdown-extensions:
   - pymdownx.superfences
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
 plugins:
   - techdocs-core
   - search

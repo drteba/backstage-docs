@@ -1,6 +1,10 @@
 site_name: arqsalut-docs
 site_description: Documents transversals de l'oficina d'Arquitectura del CatSalut
+markdown-extensions:
+  - pymdownx.superfences
 plugins:
   - techdocs-core
+  - search
+  - mermaid2
 nav:
   - Getting Started: index.md

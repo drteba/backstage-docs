@@ -1,4 +1,11 @@
+# Mermaid section
+
+Here is a mermaid graph!
+
 ```mermaid
-flowchart LR
-  User --> Backstage
-  Backstage --> TechDocs
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
